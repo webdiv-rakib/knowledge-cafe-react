@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "cover": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070&auto=format&fit=crop",
+        "title": "Mastering React Hooks in 2026",
+        "author": "Umar Suny",
+        "author_img": "https://i.pravatar.cc/150?u=umar",
+        "posted_date": "Feb 05, 2026",
+        "reading_time": 8,
+        "hashtags": [
+            "react",
+            "frontend",
+            "javascript"
+        ]
+    },
+    {
+        "id": 2,
+        "cover": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop",
+        "title": "Deep Learning for Plant Disease Detection",
+        "author": "Jahangir Alam",
+        "author_img": "https://i.pravatar.cc/150?u=jahangir",
+        "posted_date": "Jan 28, 2026",
+        "reading_time": 12,
+        "hashtags": [
+            "MachineLearning",
+            "AgriTech",
+            "Python"
+        ]
+    },
+    {
+        "id": 3,
+        "cover": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
+        "title": "The Future of Digital Marketing",
+        "author": "Sarah Jenkins",
+        "author_img": "https://i.pravatar.cc/150?u=sarah",
+        "posted_date": "Feb 01, 2026",
+        "reading_time": 5,
+        "hashtags": [
+            "Marketing",
+            "SEO",
+            "Strategy"
+        ]
+    },
+    {
+        "id": 4,
+        "cover": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop",
+        "title": "Life After a CSE Degree: What's Next?",
+        "author": "Ridoy Ahmed",
+        "author_img": "https://i.pravatar.cc/150?u=ridoy",
+        "posted_date": "Jan 15, 2026",
+        "reading_time": 6,
+        "hashtags": [
+            "Career",
+            "CSE",
+            "Graduation"
+        ]
+    },
+    {
+        "id": 5,
+        "cover": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop",
+        "title": "Building Scalable APIs with Node.js",
+        "author": "Alex Chen",
+        "author_img": "https://i.pravatar.cc/150?u=alex",
+        "posted_date": "Feb 07, 2026",
+        "reading_time": 10,
+        "hashtags": [
+            "NodeJS",
+            "Backend",
+            "API"
+        ]
+    }
+]
