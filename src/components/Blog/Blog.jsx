@@ -1,5 +1,6 @@
 import '../Blog/Blog.css'
-const Blog = ({ blog }) => {
+import { CiBookmark } from "react-icons/ci";
+const Blog = ({ blog,handleAddToBookmark }) => {
     const { title, cover, reading_time, author_img, author, posted_date, hashtags } = blog
     return (
         <div className="">
@@ -12,13 +13,13 @@ const Blog = ({ blog }) => {
                         <p className="font-semibold text-sm color-1">{posted_date}</p>
                     </div>
                 </div>
-                <div>
+                <div className='flex justify-center items-center'>
                     <span className="color-1">{reading_time} min read</span>
-
+                    <button onClick={handleAddToBookmark} className='text-2xl'><CiBookmark></CiBookmark></button>
                 </div>
             </div>
             <h2 className="text-4xl font-bold mt-3">{title}</h2>
-            <p className='color-1'>
+            <p className='color-1 mt-3'>
                 {
                     hashtags.map(hash => <span><a href="">#{hash}</a></span>)
                 }
