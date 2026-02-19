@@ -1,6 +1,6 @@
 import '../Blog/Blog.css'
 import { CiBookmark } from "react-icons/ci";
-const Blog = ({ blog, handleAddToBookmark }) => {
+const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
     const { title, cover, reading_time, author_img, author, posted_date, hashtags } = blog
     return (
         <div className="">
@@ -24,6 +24,7 @@ const Blog = ({ blog, handleAddToBookmark }) => {
                     hashtags.map(hash => <span><a href="">#{hash}</a></span>)
                 }
             </p>
+            <button onClick={() => handleMarkAsRead(reading_time)}><u className='text-purple-600 font-bold'>Mark as Read</u></button>
         </div>
     );
 };
