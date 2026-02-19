@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Blog from '../Blog/Blog';
+
 const Blogs = ({ handleAddToBookmark }) => {
     const [blogs, setBlogs] = useState([])
     useEffect(() => {
